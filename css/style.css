@@ -1,0 +1,36 @@
+.fixed-pos {border:1px solid black;
+            width: 50px;
+            height: 50px;}
+
+.white-group{
+    background-color: red;
+}
+
+.white-group:hover{
+    background-color: green;
+}
+
+.black-group{
+    background-color: black;
+}
+
+.black-group:hover{
+    background-color: green;
+}
+
+.token-init{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.token-black{
+    background-color: black;
+    background: linear-gradient(to top left, white -10%, black);
+}
+
+.token-white{
+    background-color: white;
+    background: linear-gradient(to top left, black -90%, white);
+}
